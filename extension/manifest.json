@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Links Sniffer",
+    "description": "Links Sniffer is a tool that helps you to find all the links on a web page. It is a very useful tool for web developers and SEO experts.",
+    "version": "1.0",
+    "author": "Nick Bay",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/logo1-128-links-sniffer-16.png",
+        "32": "images/logo1-128-links-sniffer-32.png",
+        "48": "images/logo1-128-links-sniffer-48.png",
+        "128": "images/logo1-128-links-sniffer-128.png"
+    },
+    "permissions": [
+      "storage",
+      "scripting",
+      "activeTab",
+      "tabs"
+    ]
+  }
